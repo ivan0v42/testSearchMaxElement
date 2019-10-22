@@ -5,7 +5,7 @@ public class TestFindMax {
 
     @Test
     public void shouldBeMaxValue() {
-        int maxValue = Sort.getMaxValue(array);
+        int maxValue = FindMax.getMaxValue(array);
         assert(maxValue == 42);
     }
 
