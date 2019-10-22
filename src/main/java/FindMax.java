@@ -1,4 +1,4 @@
-public class Sort
+public class FindMax
 {
     public static int getMaxValue(int[] array) {
         int value = Integer.MIN_VALUE;
