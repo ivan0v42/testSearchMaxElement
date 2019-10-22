@@ -1,5 +1,5 @@
 import org.junit.Test;
-public class SortTest {
+public class TestFindMax {
 
     int[] array = new int[] {1, 2, 3, -5, 7, 42, 40};
 
@@ -12,7 +12,7 @@ public class SortTest {
     @Test(expected = IllegalArgumentException.class)
     public void shouldBeIllegalArgumentException() {
         int[] emptyArray = new int[] {};
-        int maxValue = Sort.getMaxValue(emptyArray);
+        int maxValue = FindMax.getMaxValue(emptyArray);
 
     }
 }
